@@ -12,7 +12,7 @@ import {
 import addFavIcon from '../../assets/add-fav-star.svg';
 import removeFavIcon from '../../assets/remove-fav-star.svg';
 import { useDispatch } from 'react-redux';
-import { addToFavorite, removeFromFavorite } from '../../store/storeActions.js';
+import { addToFavorite, removeFromFavorite } from '../../store/actions/storeActions.js';
 
 const MusicCard = ({ track, favorite }) => {
   const dispatch = useDispatch();

@@ -17,7 +17,7 @@ import {
 import logo from '../../assets/logo.svg';
 import searchIcon from '../../assets/search-icon.svg';
 import favIcon from '../../assets/fav-star.svg';
-import { clearTracks, searchTracks, setQuery } from '../../store/storeActions';
+import { clearTracks, searchTracks, setQuery } from '../../store/actions/storeActions';
 
 const Navbar = () => {
   const dispatch = useDispatch();

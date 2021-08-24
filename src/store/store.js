@@ -2,10 +2,10 @@ import { createStore, combineReducers, applyMiddleware } from 'redux';
 import { persistStore, persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 import thunk from 'redux-thunk';
-import favoritesReducer from './favoritesReducer';
-import queryIndexReducer from './queryIndexReducer';
-import queryReducer from './queryReducer';
-import tracksReducer from './tracksReducer';
+import favoritesReducer from './reducers/favoritesReducer';
+import queryIndexReducer from './reducers/queryIndexReducer';
+import queryReducer from './reducers/queryReducer';
+import tracksReducer from './reducers/tracksReducer';
 
 const rootReducer = combineReducers({
   tracks: tracksReducer,

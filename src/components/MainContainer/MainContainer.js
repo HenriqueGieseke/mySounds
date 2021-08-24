@@ -9,7 +9,7 @@ import MusicCard from '../MusicCard/MusicCard';
 import axios from 'axios';
 import { useDispatch, useSelector } from 'react-redux';
 import { connect } from 'react-redux';
-import { incrementQueryIndex, nextTracks } from '../../store/storeActions';
+import { incrementQueryIndex, nextTracks } from '../../store/actions/storeActions';
 import Spinner from '../Spinner/Spinner';
 
 const MainContainer = ({ trackList, favorite }) => {

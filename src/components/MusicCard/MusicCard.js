@@ -31,7 +31,7 @@ const MusicCard = ({ track, favorite }) => {
       <InfoWrapper>
         <h3>{track.title}</h3>
         <InfoText artist={true}>{track.artist.name}</InfoText>
-        <InfoText>Duração: {track.duration}</InfoText>
+        <InfoText>Duração: {track.duration} segs</InfoText>
       </InfoWrapper>
       <PreviewWrapper>
         <span>Preview</span>
